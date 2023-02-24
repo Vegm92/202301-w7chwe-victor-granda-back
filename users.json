@@ -1,0 +1,137 @@
+[
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c73"
+    },
+    "name": "Marius",
+    "username": "marius69",
+    "email": "marius@isdi.com",
+    "password": "l@sDevt00ls!",
+    "avatar": "mariuswithcapucha.jpg",
+    "aboutme": "whatever i want to say",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c74"
+    },
+    "name": "Olivia",
+    "username": "oliviathegreat",
+    "email": "olivia@hotmail.com",
+    "password": "Ol!v!@Pa$$",
+    "avatar": "oliviawithhat.jpg",
+    "aboutme": "I'm a fashion blogger and love trying out new trends.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c75"
+    },
+    "name": "Julia",
+    "username": "juli28",
+    "email": "julia@gmail.com",
+    "password": "Juli@28!",
+    "avatar": "juliawithdog.jpg",
+    "aboutme": "I love hiking and exploring the outdoors.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c90"
+    },
+    "name": "Samuel",
+    "username": "samuelm23",
+    "email": "samuelm23@yahoo.com",
+    "password": "samuelsPassword123",
+    "avatar": "samuelwithhat.jpg",
+    "aboutme": "I love photography and traveling.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c76"
+    },
+    "name": "Olivia",
+    "username": "oliviathegreat",
+    "email": "olivia@hotmail.com",
+    "password": "passW0rd!",
+    "avatar": "oliviawithdog.jpg",
+    "aboutme": "I'm a dog lover and foodie!",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c77"
+    },
+    "name": "Liam",
+    "username": "liam1234",
+    "email": "liam@icloud.com",
+    "password": "123456",
+    "avatar": "liamwithguitar.jpg",
+    "aboutme": "I'm a musician and love playing the guitar.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c80"
+    },
+    "name": "Emma",
+    "username": "emmajane",
+    "email": "emma@outlook.com",
+    "password": "Emm@123",
+    "avatar": "emmawithflowers.jpg",
+    "aboutme": "I love gardening and growing my own vegetables.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c81"
+    },
+    "name": "William",
+    "username": "williamh12",
+    "email": "william@hotmail.com",
+    "password": "WillPa$$word",
+    "avatar": "williamwithglasses.jpg",
+    "aboutme": "I'm a computer science student and love coding.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63f9049407c285f613f84c82"
+    },
+    "name": "Sophia",
+    "username": "sophia22",
+    "email": "sophia@gmail.com",
+    "password": "S0ph!@123",
+    "avatar": "sophiawithumbrella.jpg",
+    "aboutme": "I'm an artist and love painting and drawing.",
+    "relationship": {
+      "friends": [],
+      "foes": []
+    }
+  }
+]
