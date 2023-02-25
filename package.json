@@ -11,7 +11,8 @@
     "start:dev": "node --watch dist",
     "test": "npx jest",
     "test:coverage": "npx jest --coverage --watchAll=false",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "npx prettier -w ."
   },
   "keywords": [],
   "author": "",
@@ -38,6 +39,7 @@
     "express-validation": "^4.1.0",
     "husky": "^8.0.0",
     "jest-ts-webcompat-resolver": "^1.0.0",
+    "joi": "^17.8.3",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
@@ -46,7 +48,6 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "chalk": "^5.2.0",
     "cors": "^2.8.5",
     "debug": "^4.3.4",
     "dotenv": "^16.0.3",

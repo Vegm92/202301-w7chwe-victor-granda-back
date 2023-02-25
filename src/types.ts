@@ -6,7 +6,6 @@ export interface UserProfile extends UserRegister {
   };
 }
 export interface UserRegister extends UserCredentials {
-  name: string;
   email: string;
   avatar: string;
 }
