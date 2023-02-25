@@ -1,7 +1,6 @@
 import "./loadEnvironment.js";
 import mongoose from "mongoose";
 import createDebug from "debug";
-import chalk from "chalk";
 import startServer from "./server/startServer.js";
 import connectDatabase from "./database/connectDataBase.js";
 
@@ -20,9 +19,9 @@ mongoose.set("toJSON", {
 
 try {
   await connectDatabase(mongoDdUrl!);
-  debug(chalk.green("Connected to data base"));
+  debug("Connected to data base");
   await startServer(+port);
-  debug(chalk.green(`Server listening on port ${port}`));
+  debug(`Server listening on port ${port}`);
 } catch (error) {
   debug(error.message);
 }

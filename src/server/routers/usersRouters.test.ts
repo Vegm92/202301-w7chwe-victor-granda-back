@@ -3,7 +3,7 @@ import { MongoMemoryServer } from "mongodb-memory-server";
 import mongoose from "mongoose";
 import { app } from "..";
 import { User } from "../../database/models/User";
-import { type UserRegister } from "../controllers/types";
+import { type UserRegister } from "../../types";
 import connectDatabase from "../../database/connectDataBase";
 
 let server: MongoMemoryServer;
@@ -25,7 +25,6 @@ afterEach(async () => {
 describe("Given a POST '/users/register' endpoint", () => {
   const endpoint = "/users/register";
   const userData: UserRegister = {
-    name: "MyName",
     username: "Username",
     password: "123",
     avatar: "image.png",
