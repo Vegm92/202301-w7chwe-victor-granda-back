@@ -15,6 +15,7 @@ export const registerUser = async (
     const avatar = req.file?.filename;
 
     await User.create({ username, hashedPassword, avatar, email });
+    
     const message = "User registered successfully";
 
     res.status(201).json({ username, message });
