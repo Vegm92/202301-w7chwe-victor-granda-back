@@ -4,15 +4,16 @@ import mongoose from "mongoose";
 
 const debug = createDebug("database");
 
-const connectDataBase = async (url: string) => {
+const connectDatabase = async (url: string) => {
   mongoose.set("strictQuery", false);
 
   try {
     await mongoose.connect(url);
     debug(chalk.bgGreen("Connected to database"));
   } catch (error) {
-    throw new Error("Error while connecting to data base.");
+    debug(error);
+    throw new Error((error as Error).message);
   }
 };
 
-export default connectDataBase;
+export default connectDatabase;
