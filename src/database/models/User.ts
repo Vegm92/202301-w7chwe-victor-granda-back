@@ -2,6 +2,7 @@ import { model, Schema } from "mongoose";
 
 export const userSchema = new Schema({
   username: { type: String, required: true, unique: true },
+  name: String,
   password: { type: String, required: true, minLength: 8 },
   avatar: { type: Object },
   email: { type: String, required: true, minLength: 5 },
