@@ -1,17 +1,9 @@
-export interface UserProfile extends UserRegister {
-  aboutMe: string;
-  relationships: {
-    friends: RelationshipsStructure;
-    enemies: RelationshipsStructure;
-  };
-}
-export interface UserRegister extends UserCredentials {
-  email: string;
-  avatar: string;
-}
-export interface UserCredentials {
+export interface UserCredentialsStructure {
   username: string;
   password: string;
 }
 
-type RelationshipsStructure = UserProfile[];
+export interface UserDataStructure extends UserCredentialsStructure {
+  email: string;
+  avatar?: string;
+}

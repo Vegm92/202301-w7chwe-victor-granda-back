@@ -3,11 +3,11 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { CustomError } from "../../CustomError/CustomError.js";
 import { User } from "../../database/models/User.js";
-import { rejectedLogin } from "../middlewares/errorMiddlewares.js";
 import {
   type UserCredentialsStructure,
   type UserDataStructure,
 } from "../../types.js";
+import { rejectedLogin } from "../middlewares/errorMiddlewares.js";
 
 export const registerUser = async (
   req: Request<

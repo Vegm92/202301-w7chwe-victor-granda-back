@@ -16,7 +16,6 @@ mongoose.set("toJSON", {
     delete ret.__v;
   },
 });
-
 try {
   await connectDatabase(mongoDdUrl!);
   debug("Connected to data base");

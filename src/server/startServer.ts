@@ -9,7 +9,6 @@ const startServer = async (port: number) =>
     const server = app.listen(port, () => {
       resolve(server);
     });
-
     server.on("error", (error: CustomError) => {
       const errorMessage = "Error on starting the server";
 
