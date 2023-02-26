@@ -20,9 +20,27 @@ export const registerUser = async (
       const aboutMeError = new CustomError(
         "Wrong AboutMe length",
         500,
-        "you need at least 10 characters to register"
+        "you need at least 10 characters on about me to register"
       );
       next(aboutMeError);
+    }
+
+    if (email.length < 5) {
+      const emailError = new CustomError(
+        "Wrong email length",
+        500,
+        "you need at least 5 characters on email to register"
+      );
+      next(emailError);
+    }
+
+    if (password.length < 8) {
+      const passwordError = new CustomError(
+        "Wrong password length",
+        500,
+        "you need at least 8 characters on password to register"
+      );
+      next(passwordError);
     }
 
     await User.create({
