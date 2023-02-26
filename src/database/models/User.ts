@@ -3,9 +3,9 @@ import { model, Schema } from "mongoose";
 export const userSchema = new Schema({
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true, minLength: 8 },
-  avatar: { type: Object, required: true },
+  avatar: { type: Object },
   email: { type: String, required: true, unique: true, minLength: 5 },
-  aboutMe: { type: String, required: true, minLength: 10 },
+  aboutMe: { type: String, minLength: 10 },
   relationships: {
     type: Object,
     friends: { type: Array },
